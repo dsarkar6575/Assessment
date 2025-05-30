@@ -28,7 +28,7 @@ public class ProductServiceImpl implements ProductService {
 
     @Override
     public Page<ProductDto> getAllProducts(int page) {
-        Pageable pageable = PageRequest.of(page, 5); // 5 items per page
+        Pageable pageable = PageRequest.of(page, 5); 
         Page<Product> products = productRepository.findAll(pageable);
         return products.map(product -> {
             ProductDto productDto = modelMapper.map(product, ProductDto.class);

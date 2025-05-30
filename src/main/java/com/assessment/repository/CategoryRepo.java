@@ -7,6 +7,4 @@ import com.assessment.model.Category;
 
 @Repository
 public interface CategoryRepo extends JpaRepository<Category, Long> {
-    // Additional query methods can be defined here if needed
-
 }
