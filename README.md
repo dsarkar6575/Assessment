@@ -44,6 +44,7 @@ Test the APIs:
 Import Postman collection or manually test endpoints.
 
 Base URL: http://localhost:8080/api/categories
+
 Base URL: http://localhost:8080//api/products
 
 
