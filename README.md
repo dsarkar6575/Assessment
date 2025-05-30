@@ -122,9 +122,15 @@ src/main/java/com/assessment/
 ✅ Tech Stack
 
 Java 24
+
 Spring Boot 3
+
 Spring Data JPA
+
 Hibernate
+
 MySQL
+
 Maven
+
 Postman
