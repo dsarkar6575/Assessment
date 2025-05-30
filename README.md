@@ -88,7 +88,33 @@ DELETE /products/{id} – Delete product
 
 📁 Folder Structure
 
-<pre> ```text src/main/java/com/assessment/ ├── config/ │ └── ModelMapperConfig.java ├── controller/ │ ├── CategoryController.java │ └── ProductController.java ├── dto/ │ ├── CategoryDto.java │ └── ProductDto.java ├── exception/ │ └── ResourceNotFoundException.java ├── model/ │ ├── Category.java │ └── Product.java ├── repository/ │ ├── CategoryRepository.java │ └── ProductRepository.java ├── service/ │ ├── CategoryService.java │ ├── ProductService.java │ └── impl/ │ ├── CategoryServiceImpl.java │ └── ProductServiceImpl.java └── NimapInfotechAssessmentApplication.java ``` </pre>                  
+```text
+src/main/java/com/assessment/
+├── config/
+│   └── ModelMapperConfig.java
+├── controller/
+│   ├── CategoryController.java
+│   └── ProductController.java
+├── dto/
+│   ├── CategoryDto.java
+│   └── ProductDto.java
+├── exception/
+│   └── ResourceNotFoundException.java
+├── model/
+│   ├── Category.java
+│   └── Product.java
+├── repository/
+│   ├── CategoryRepository.java
+│   └── ProductRepository.java
+├── service/
+│   ├── CategoryService.java
+│   ├── ProductService.java
+│   └── impl/
+│       ├── CategoryServiceImpl.java
+│       └── ProductServiceImpl.java
+└── NimapInfotechAssessmentApplication.java
+```
+                 
 
 
 
