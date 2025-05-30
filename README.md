@@ -1,3 +1,5 @@
+#CRUD Application for Product & Category Management
+
 This project is a Spring Boot application developed as part of a machine test . It implements CRUD operations for Category and Product entities with a One-to-Many relationship, server-side pagination, and properly structured REST APIs.
 
 ✅ Machine Test Requirements Implemented
@@ -77,67 +79,10 @@ DELETE /products/{id} – Delete product
 
 4️⃣ DB Design
 
-Category Table
-
-Column
-
-Type
-
-Description
-
-id
-
-BIGINT
-
-Primary Key
-
-name
-
-VARCHAR
-
-Category Name
-
-Product Table
-
-Column
-
-Type
-
-Description
-
-id
-
-BIGINT
-
-Primary Key
-
-name
-
-VARCHAR
-
-Product Name
-
-price
-
-DOUBLE
-
-Product Price
-
-category_id
-
-BIGINT
-
-Foreign key (Category ID)
-
-Entity Relationship
-
-One Category → Many Products
-
-Entity Annotations:
-
-@OneToMany(mappedBy = "category") in Category
-
-@ManyToOne with @JoinColumn in Product
+| Table Name | Columns                       | Description                  |
+|------------|-------------------------------|------------------------------|
+| Category   | id (PK), name, description    | Stores product categories     |
+| Product    | id (PK), name, price, category_id (FK) | Stores products with category reference |
 
 
 📁 Folder Structure
