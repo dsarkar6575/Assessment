@@ -1,4 +1,4 @@
-#CRUD Application for Product & Category Management
+# CRUD Application for Product & Category Management
 
 This project is a Spring Boot application developed as part of a machine test . It implements CRUD operations for Category and Product entities with a One-to-Many relationship, server-side pagination, and properly structured REST APIs.
 
